@@ -1,0 +1,35 @@
+html body {
+  height: 100%;
+  width: 100%;
+  background-color: beige;
+}
+
+#taskPlannerCol {
+  border-style: solid;
+  background-color: lightpink;
+  margin-right:
+}
+
+/* #summaryOfTasksCol {
+  border-style: solid;
+  background-color: lightpink;
+} */
+
+#addTaskButton {
+  margin-bottom: 18px;
+  text-align: center; 
+}
+
+.editTextForTP {
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.card {
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.position {
+  margin-left: 140px;
+}
