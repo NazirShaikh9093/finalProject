@@ -195,7 +195,7 @@ element.parentNode.parentNode.parentNode.parentNode.removeChild(element.parentNo
 // deletes the list content thingy
 
 let elementsA = document.getElementsByTagName('a');
-    for(let i=0; i < elementsA.length; i++){
+    for(i=0; i < elementsA.length; i++){
         element = elementsA[i];
         if(element.attributes.id.value == thistaskID){
             element.parentNode.removeChild(element);
